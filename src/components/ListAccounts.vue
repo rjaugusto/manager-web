@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="container">
     <table class="table">
         <thead>
             <tr>
@@ -67,6 +67,9 @@ export default {
 }
 </script>
 <style scoped>
+.container {
+    padding-top: 50px;
+}
 table, th, td {
   border: 1px solid black;
 }
